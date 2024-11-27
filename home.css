@@ -1,0 +1,86 @@
+body {
+    font-family:Kh Koulen;
+}
+.header{
+    color: #ffe603;
+    text-shadow: 2px 3px 3px #000000;
+    animation: imgAnimation 5s infinite;
+}
+.bg img{
+    position: absolute;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+    filter: blur(2px);
+    opacity: 10%;
+}
+.title {
+    font-size: 2.5rem;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+.btn1{
+width: 100%;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: bold;
+
+}
+.btn2{
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    }
+.boder{
+    width: 100%;
+    
+    border:1px solid #00aeff;
+    box-shadow: 10px,10px,10px,50px black;
+    border-radius:15px;
+}
+.btn1:hover{
+background-color: rgb(51, 65, 255);
+color: rgb(255, 255, 255);
+transition: all 0.3s linear;
+box-shadow: 10px,10px,10px,50px black;
+transform: scale(1.02);
+}
+.btn2:hover{
+    background-color: rgb(51, 65, 255);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s linear;
+    box-shadow: 10px,10px,10px,50px black;
+    transform: scale(1.02);
+
+    
+}
+.boder iframe{
+    width: 100%;    
+    border-radius: 15px;
+    box-shadow: 10px,10px,10px,50px black;
+}
+.bgc1{
+    background-image: linear-gradient(to top right, rgb(34, 156, 255), rgb(0, 255, 242));
+
+    
+}
+.bgc2{
+    background-image: linear-gradient(to top right, rgb(34, 156, 255), rgb(0, 255, 242));
+
+    
+}
+@keyframes imgAnimation {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
